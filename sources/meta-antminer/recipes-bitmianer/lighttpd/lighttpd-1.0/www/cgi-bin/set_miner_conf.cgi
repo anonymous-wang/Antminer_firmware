@@ -1,6 +1,7 @@
 #!/bin/sh
 #set -x
 
+#request params, MUST reserve order
 ant_pool1url=
 ant_pool1user=
 ant_pool1pw=
@@ -14,6 +15,7 @@ ant_nobeeper=
 ant_notempoverctrl=
 ant_freq=
 ant_voltage=
+#params end
 
 ant_input=`cat /dev/stdin`
 #if input 'a=1&b=2&c=3' => ant_tmp='a=1' 'b=2' 'c=3'
