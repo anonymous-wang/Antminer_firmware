@@ -16,6 +16,7 @@ ant_freq=
 ant_voltage=
 
 ant_input=`cat /dev/stdin`
+#if input 'a=1&b=2&c=3' => ant_tmp='a=1' 'b=2' 'c=3'
 ant_tmp=${ant_input//&/ }
 i=0
 for ant_var in ${ant_tmp}
