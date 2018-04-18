@@ -44,6 +44,7 @@ do
 	ant_var=${ant_var//%2F/\/}
 	#ant_var=${ant_var//%22/\"}
 	#ant_var=${ant_var//%5C/\\}
+	#fxxk bitmain params parse fixed order loop
 	case ${i} in
 		0 )
 		ant_pool1url=${ant_var/_ant_pool1url=/}
